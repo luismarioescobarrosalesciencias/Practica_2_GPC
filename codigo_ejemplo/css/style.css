@@ -7,7 +7,7 @@ body, h1, form, label, input {
 /* Estilos para el contenedor principal con fondo de imagen */
 .container {
     text-align: center;
-background-image: url('https://c.wallhere.com/photos/05/7c/AI_art_city_street_LoFi_Japan-2230190.jpg!d'), url('/images/santas_bibliotecas_batman.png');
+background-image: url('/images/Tokyo-Alleyway-Lofi-Wallpaper.jpg'), url('/images/santas_bibliotecas_batman.png');
 
     background-size: cover;
     background-position: center;
