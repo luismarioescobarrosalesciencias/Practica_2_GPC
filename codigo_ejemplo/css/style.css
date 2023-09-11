@@ -1,0 +1,60 @@
+body, h1, form, label, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Estilos para el contenedor principal con fondo de imagen */
+.container {
+    text-align: center;
+background-image: url('https://c.wallhere.com/photos/05/7c/AI_art_city_street_LoFi_Japan-2230190.jpg!d'), url('/images/santas_bibliotecas_batman.png');
+
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Ajusta la altura según tu necesidad */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el formulario */
+.my-form {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #3498db;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilos para los campos de entrada de texto */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de enviar */
+.submit-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
